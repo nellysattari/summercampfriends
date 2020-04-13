@@ -3,20 +3,7 @@
           <input type="file" id="file-input" accept="image/*">
               
         <v-layout row wrap>
-            <!-- <v-flex  v-for="(dog, index) in dogs" :key="dog.id" xs12 md6 xl3 pa-2> -->
-                <!-- <v-card @click="$router.push({name: 'details', params:{ id:dog.id, dog:dogs[index] }})">
-                    <v-img
-                    height="170"
-                    :src="dog.url"
-                    aspect-ratio="2.75"
-                    ></v-img>  
-                    <v-card-title primary-title style="padding-top:13px">
-                        <div>
-                            <h3 class="headline">{{ dog.comment }}</h3>
-                            <div> {{ dog.info }}</div>
-                        </div>
-                    </v-card-title>
-                </v-card> -->
+          
                  <v-flex xs12 sm6 pa-2> 
                    <v-card>
                          <v-img
@@ -26,7 +13,7 @@
                         <v-card-title primary-title style="padding-top:13px">
                             <div>
                                 <h3 class="headline">Nelly sattari</h3>
-                                <div> Some detail about you</div>
+                                <div> Some detail about you1</div>
                             </div>
                         </v-card-title>
                     </v-card> 
